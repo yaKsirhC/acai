@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&family=Outfit:wght@300;400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #1E1E1E;
+  overflow-x: hidden;
+}
+
+* {
+  /* position: static !important; */
+}
+
+.navbar-color {
+  color: #8e8e8e;
+}
+
+*:not(.mt-\[58px\]) {
+  flex-wrap: wrap;
+}
+
+.swiper-wrapper {
+  justify-content: center;
+  gap: 100px;
+}
+
+img {
+  max-width: 100%;
+}
+/* * {
+  width: auto !important;
+} */
+
+.line {
+  width: 4px;
+}
+
+.awful {
+  width: 500px;
+  height: 500px;
+}
+
+.awful * {
+  top: auto !important;
+  right: auto !important;
+  left: auto !important;
+}
+
+.plz {
+  z-index: 2;
+  width: 4px;
+  height: 60px;
+  background-color: red;
+  top: 60px;
+  border-bottom-left-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+  /* transform: translateY(-100px); */
+}
+
+/* div + .lline, .line + div > *{
+  margin: 0 40px;
+}  */
+
+div.grid-cols-2:nth-child(2), #Home{
+  display: flex !important;
+  justify-content: center;
+  gap: 50px !important;
+}
+.mr-36{
+  margin: 0 !important;
+}
+
+p, h1, h2 {
+  max-width: 40ch;
+}
+
+.token-distribution{
+  width: auto !important;
+}
+
+/* .nav-active {
+  color: #8E5E8A;
+}
+:dark.nav-active {
+  color: #B6BA64 !important;
+} */

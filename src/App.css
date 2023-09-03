@@ -1,0 +1,150 @@
+.hero-btn-1 {
+    background: linear-gradient(110.59deg, #8E5E8A 36.35%, rgba(71, 20, 67, 0.54) 98.75%);
+}
+
+.hero-paragraph {
+    background: linear-gradient(90.65deg, #26A132 0.41%, #8E5E8A 36.51%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    background-size: 200% auto;
+    animation: gradientAnimate 5s ease-in-out infinite;
+}
+
+@keyframes gradientAnimate {
+    0% {
+        background-position: -0% -0%;
+    }
+
+    50% {
+        background-position: -0% 0%;
+    }
+
+    100% {
+        background-position: 100% -100%;
+    }
+}
+
+.partners-grid-1 {
+    background: linear-gradient(123.66deg, #8E5E8A 30.01%, rgba(71, 20, 67, 0.04) 137.48%);
+    backdrop-filter: blur(2px);
+    width: 100% !important;
+    position: absolute;
+}
+
+.dark .partners-grid-1 {
+    background: linear-gradient(123.66deg, #B6BA64 30.01%, rgba(99, 103, 21, 0.53) 137.48%);
+    backdrop-filter: blur(2px);
+    width: 100% !important;
+    position: absolute;
+
+}   
+
+.contact-btn {
+    background: linear-gradient(99.8deg, #471443 27.09%, #8E5E8A 73.57%);
+}
+
+.dark .contact-btn{
+    background: linear-gradient(99.8deg, #636715 27.09%, #B6BA64 73.57%);
+}
+
+.token-distribution {
+    display: inline;
+}
+
+.dark .token-distribution {
+    display: none;
+}
+
+.token-distribution-dark {
+    display: none;
+}
+
+.dark .token-distribution-dark {
+    display: inline;
+}
+
+.bg-light {
+    display: inline;
+}
+
+.dark .bg-light {
+    display: none;
+}
+
+.bg-dark {
+    display: none;
+}
+
+.dark .bg-dark {
+    display: inline;
+}
+
+.line {
+    display: block;
+}
+
+.dark .line {
+    display: none;
+}
+
+.lineDark {
+    display: none;
+}
+
+.dark .lineDark {
+    display: block;
+}
+
+.card-logo {
+    display: inline;
+}
+
+.dark .card-logo {
+    display: none;
+}
+
+.dark-card-logo {
+    display: none;
+}
+
+.dark .dark-card-logo {
+    display: inline;
+}
+
+.logoimg {
+    display: inline;
+}
+
+.dark .logoimg {
+    display: none;
+}
+
+.logoimg-dark {
+    display: none;
+}
+
+.dark .logoimg-dark {
+    display: inline;
+}
+
+.card-style {
+    background-color: #8e5e8a !important; 
+    opacity : 1; 
+    filter: blur(100px) !important;
+}
+
+.dark .card-style {
+    background-color: #b6ba64 !important; 
+    opacity : 1; 
+    filter: blur(100px) !important;
+}
+
+.pop .popdown {
+    opacity: 0;
+}
+
+.pop:hover .popdown{
+    opacity: 1;
+}
