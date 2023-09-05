@@ -31,9 +31,9 @@ const BlockchainCard = () => {
                         <div><img src={bnbChain} className="w-auto h-full" /></div>
                         <div><img src={polygon} className="w-auto h-full" /></div>
                         <div><img src={solana} className="w-auto h-full" /></div>
-                        <div><img src={okx} className="w-auto h-full" /></div>
+                        {/* <div><img src={okx} className="w-auto h-full" /></div> */}
                         <div><img src={fantom} className="w-auto h-full" /></div>
-                        <div className=" "><img src={tron} className="w-auto h-full" /></div>
+                        {/* <div className=" "><img src={tron} className="w-auto h-full" /></div>
                         <div><img src={c} className="w-[186px] h-[139px]" /></div>
                         <div><img src={celo} className="w-[186px] h-[139px]" /></div>
                         <div><img src={sun} className="w-[186px] h-[139px]" /></div>
@@ -47,7 +47,7 @@ const BlockchainCard = () => {
                         <div><img src={near} className="w-[186px] h-[139px]" /></div>
                         <div><img src={heco} className="w-[196px] h-[139px]" /></div>
                         <div><img src={g} className="w-[186px] h-[139px]" /></div>
-                        <div></div>
+                        <div></div> */}
                     </div>
 
                 </Marquee>

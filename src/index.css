@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 body {
-  background-color: #1E1E1E;
+  /* background-color: #1E1E1E; */
   overflow-x: hidden;
 }
 
@@ -16,9 +16,17 @@ body {
   color: #8e8e8e;
 }
 
-*:not(.mt-\[58px\]) {
+*:not(.mt-\[58px\],) {
   flex-wrap: wrap;
 }
+
+.initial-child-container{
+  flex-wrap: nowrap;
+}
+
+/* .inline {
+  display: inline;
+} */
 
 .swiper-wrapper {
   justify-content: center;
@@ -42,9 +50,9 @@ img {
 }
 
 .awful * {
-  top: auto !important;
-  right: auto !important;
-  left: auto !important;
+  top: auto ;
+  right: auto;
+  left: auto;
 }
 
 .plz {
@@ -68,7 +76,7 @@ div.grid-cols-2:nth-child(2), #Home{
   gap: 50px !important;
 }
 .mr-36{
-  margin: 0 !important;
+  margin: 0;
 }
 
 p, h1, h2 {
@@ -76,7 +84,7 @@ p, h1, h2 {
 }
 
 .token-distribution{
-  width: auto !important;
+  width: auto ;
 }
 
 /* .nav-active {
@@ -85,3 +93,34 @@ p, h1, h2 {
 :dark.nav-active {
   color: #B6BA64 !important;
 } */
+
+.second-abs {
+  position: absolute;
+  top: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.parent-honey {
+  position: relative;
+  display: inline-block;
+}
+
+.text-menu {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50% );
+}
+
+.hackernoon {
+  width: 50px;
+}
+
+.featured-block {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  @apply py-2 px-4 bg-gray-200 rounded-2xl m-2 transition-all hover:bg-gray-100;
+}

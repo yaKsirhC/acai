@@ -110,7 +110,7 @@ const LandingHeroCard = (props) => {
                     </svg> */}
                     <img className="h-[28px] w-[38px]" src={img2} alt="" />
                     </div>
-                    <img className="dark-card-logo" src={multiChain} alt="" />
+                    <img className="dark-card-logo" src={img2} alt="" />
                 </Card>
             </Marquee>
         </>

@@ -18,12 +18,14 @@ const Navbar = () => {
     }, [theme])
 
     const tabs = [
-        { label: 'Home', link: '#' },
-        { label: 'Roadmap', link: '#' },
-        { label: 'Tokenomics', link: '#' },
-        { label: 'Contact us', link: '#' },
-        { label: 'Blockchain', link: '#' },
-        { label: 'News', link: '#' },
+        { label: 'Home', link: '#Home' },
+        { label: 'Roadmap', link: '#Roadmap' },
+        { label: 'Tokenomics', link: '#Tokenomics' },
+        { label: 'Team', link: '#Team' },
+        { label: 'Partners', link: '#Partners' },
+        { label: 'Blockchain', link: '#Blockchain' },
+        { label: 'Press', link: '#Press-id' },
+        { label: 'Contact us', link: '#Contact us' },
        
     ];
 
