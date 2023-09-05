@@ -74,7 +74,7 @@ function Roadmap() {
         </div>
       </div>
       <div className="line absolute top-0 bottom-0  bg-white">
-        <div className="plz sticky bg-pink-500"></div>
+        <div className="plz sticky bg-[#8E5E8A]"></div>
       </div>
       <div className="">
         <div className="rounded-lg ml-[34px] p-[29px] h-[598px] bg-[#8E5E8A] dark:bg-[#1E1E1E]">
