@@ -39,9 +39,9 @@ const LandingPage = () => {
   // })
 
   return (
-    <div className=" bg-[#1E1E1E] plz-be-over pt-[60px] dark:bg-[#fdfbea]">
+    <div className="plz-be-over pt-[60px]">
       {/* Section - Hero */}
-      <div className="grid grid-cols-2" id="Home" >
+      <div className="flex flex-wrap justify-center" id="Home">
         <div className="col-span-1 font-[inter]">
           <div className="ml-24 mt-24">
             <h1 className="text-[40px] text-white dark:text-black font-semibold">
@@ -52,11 +52,11 @@ const LandingPage = () => {
               <br />
               on a multi-chain ecosystem
             </h1>
-            <p className="mr-16 mt-4 text-white dark:text-black text-[18px]">
+            <p className=" mt-4 text-white dark:text-black text-[18px]">
               We support our community providing new ways to manage assets, invest and profit. <br />
               Now you can earn based on strategy, creativity and other skills. Join us and enjoy a whole new world full of opportunities with more diversity and less fees!
             </p>
-            <div className="flex gap-8 my-6">
+            <div className="flex gap-8 my-6 flex-wrap">
               <a href="https://acaiswap.finance/" target="_blank">
                 <button className="text-white p-3 px-10 rounded-full bg-gradient-to-r from-[#8E5E8A] to-[#471443]/50 dark:from-[#B6BA64] dark:to-[#636715]">Enter App</button>
               </a>
@@ -67,7 +67,7 @@ const LandingPage = () => {
           </div>
         </div>
         <div className="col-span-1">
-          <div className="mt-8">
+          <div className="mt-8 flex flex-wrap justify-center">
             <img className="absolute top-[27px] right-0 w-[350px] bg-light" src={light1} alt="" />
             <img className="absolute top-[507px] left-0 bg-light" src={light2} alt="" />
             <img className="absolute top-[1287px] right-0 w-[350px] bg-light" src={light1} alt="" />
@@ -76,10 +76,10 @@ const LandingPage = () => {
             <img className="absolute top-[27px] right-0 w-[350px] bg-dark" src={light4} alt="" />
             <img className="absolute top-[507px] left-0 bg-dark" src={light3} alt="" />
             <img className="absolute top-[1287px] right-0 w-[350px] bg-dark" src={light4} alt="" />
-            <div className="w-full flex justify-start pl-36">
+            <div className="">
               <img src={HeroImg} alt="" className="h-[25rem] relative right-6" />
             </div>
-            <p className="hero-paragraph text-[18px] pt-16 mr-20 font-[inter]">AçaíSwap was born in Brazil, inspired in the largest rainforest in the world: Amazon! With that in mind, AçaíSwap brings to its community a completely new range of opportunities in DeFi, joining benefits, incentives, and new ways of investment. Take a tour through our website and discover all the exciting news waiting for you!</p>
+            <p className="hero-paragraph text-[18px] pt-16 font-[inter]">AçaíSwap was born in Brazil, inspired in the largest rainforest in the world: Amazon! With that in mind, AçaíSwap brings to its community a completely new range of opportunities in DeFi, joining benefits, incentives, and new ways of investment. Take a tour through our website and discover all the exciting news waiting for you!</p>
           </div>
         </div>
       </div>
@@ -93,7 +93,7 @@ const LandingPage = () => {
       <div className="flex flex-col font-[Inter]">
         <div className="my-3 ">
           <h1 className="text-[#8E5E8A] dark:text-[#B6BA64] text-[28px] font-bold">Product and Features</h1>
-          <p className="pt-3 text-white dark:text-black text-[18px] mr-72">Here you check what is waiting for you in our ecosystem. Hover the mouse through the icons on the right to read a brief explanation of each one</p>
+          <p className="pt-3 text-white dark:text-black text-[18px]">Here you check what is waiting for you in our ecosystem. Hover the mouse through the icons on the right to read a brief explanation of each one</p>
         </div>
         <div className="flex items-center justify-center gap-4">
           <HoneyComb />
@@ -110,23 +110,22 @@ const LandingPage = () => {
       </div>
 
       {/* Section - Tokenomics */}
-      <div className="grid grid-cols-2 mt-12 ml-24 font-[Inter]" id="Tokenomics">
+      <div className="ml-font-[Inter] px-8" id="Tokenomics">
         <div className="my-3 ">
           <h1 className="text-[#8E5E8A] dark:text-[#B6BA64] text-[28px] font-bold">Tokenomics</h1>
-          <p className="pt-3 text-white dark:text-black text-[18px] mr-80">
+          <p className="pt-3 text-white dark:text-black text-[18px]">
             Here you can see our economic distribution and <br /> details about our token
           </p>
         </div>
-        <div></div>
-      </div>
-      <div className="flex items-center h-auto justify-center gap-4">
-        <LandingTokenomicsCard />
+        <div className="flex items-center h-auto justify-center gap-4">
+          <LandingTokenomicsCard />
+        </div>
       </div>
 
       {/* Section - Token Distribution */}
       <div className="flex flex-col justify-center items-center w-screen my-12">
         <h1 className="text-[#8E5E8A] dark:text-[#B6BA64] text-[24px] font-bold my-8">Token Distribution</h1>
-        <div className="grid grid-cols-2 gap-0 w-full">
+        <div className="flex justify-center gap-0 flex-wrap">
           <div className="w-full h-full flex flex-col justify-center items-center">
             <img className="token-distribution w-[850px]" src={TokenDistributionSvg} alt="Token Distribution" />
             <img className="token-distribution-dark w-[850px]" src={TokenDistributionSvgDark} alt="" />
@@ -141,7 +140,7 @@ const LandingPage = () => {
             <p className="text-white font-semibold ml-6">b. We don’t have token allocation for: Reserve, Advisors, Team, Investors, Partners</p>
           </div>
 
-          <div className="mr-36">
+          <div className="">
             <TokenDistributionCard />
           </div>
         </div>
@@ -149,10 +148,10 @@ const LandingPage = () => {
 
       {/* Section - Team */}
       <div className="mx-24 my-12 pb-24" id="Team">
-        <div className="grid grid-cols-2 font-[Inter]">
+        <div className="flex flex-wrap justify-center font-[Inter]">
           <div className="my-3 ">
             <h1 className="text-[#8E5E8A] dark:text-[#B6BA64] text-[28px] font-bold">Team</h1>
-            <p className="pt-3 text-white dark:text-black text-[18px] mr-80">These are the brave who joined us to make this project possible</p>
+            <p className="pt-3 text-white dark:text-black text-[18px]">These are the brave who joined us to make this project possible</p>
           </div>
           <div></div>
         </div>
@@ -162,10 +161,10 @@ const LandingPage = () => {
       {/* Section - Partners */}
       <div className="pb-24 w-full" id="Partners">
         <div className="mx-24 my-12">
-          <div className="grid grid-cols-2 font-[Inter]">
+          <div className="font-[Inter]">
             <div className="my-3 ">
               <h1 className="text-[#8E5E8A] dark:text-[#B6BA64] text-[28px] font-bold">Partners</h1>
-              <p className="pt-3 text-white dark:text-black text-[18px] mr-64">These are our most notable partners. Helping on achieving changing the world!</p>
+              <p className="pt-3 text-white dark:text-black text-[18px]">These are our most notable partners. Helping on achieving changing the world!</p>
             </div>
             <div></div>
           </div>
@@ -175,10 +174,10 @@ const LandingPage = () => {
       {/* Section - Blockchains */}
       <div className="pb-24" id="Blockchain">
         <div className="mt-24 mx-24">
-          <div className="grid grid-cols-2 font-[Inter]">
+          <div className="flex flex-wrap justify-center font-[Inter]">
             <div className="my-3 ">
               <h1 className="text-[#8E5E8A] dark:text-[#B6BA64] text-[28px] font-bold">Blockchains</h1>
-              <p className="pt-3 text-white dark:text-black text-[18px] mr-64">Here you can see all blockchains we will operate</p>
+              <p className="pt-3 text-white dark:text-black text-[18px]">Here you can see all blockchains we will operate</p>
             </div>
             <div></div>
           </div>

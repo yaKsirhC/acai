@@ -6,6 +6,7 @@
 body {
   /* background-color: #1E1E1E; */
   overflow-x: hidden;
+  @apply bg-[#1E1E1E] dark:bg-[#fdfbea];
 }
 
 * {
@@ -123,4 +124,28 @@ p, h1, h2 {
   gap: 8px;
 
   @apply py-2 px-4 bg-gray-200 rounded-2xl m-2 transition-all hover:bg-gray-100;
+}
+
+/* *:not(img) {
+  z-index: 2;
+} */
+
+img {
+  z-index: -1;
+}
+
+.card-style {
+  z-index: -1;
+}
+
+p.dark\:text-black {
+  text-align: center;
+}
+
+h1.font-bold:not(.redempt){
+  text-align: center;
+}
+
+.featured-block img, .parent-honey img {
+  z-index: 1;
 }

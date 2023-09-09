@@ -18,7 +18,7 @@ const Card = (props) => {
         <>
             <div className="bg-white dark:bg-black dark:text-white h-24 font-semibold rounded-md w-80 ml-10 flex items-center justify-center cursor-pointer">
                 <div className="flex h-full w-full items-center justify-center gap-4">
-                    <div className=" ml-4 mr-2">{props.children}</div>
+                    <div className=" ml-4">{props.children}</div>
                     <div className="w-full font-[Inter] text-[14px] pr-12">{props.text}</div>
                 </div>
             </div>
